@@ -5887,10 +5887,6 @@ a.ygtvspacer:hover {
   background-color: #FFFAF9;
 }
 .boxaligncenter tbody tr td .advancesearch .col2 .item5 .template-token .form-inline {
-  /*display: flex;
-  flex-flow: row wrap;
-  width: 60%;
-  align-items: center;*/
   gap: 5px 5px;
 }
 .boxaligncenter tbody tr td .advancesearch .col2 .item5 .template-token .form-inline select {
