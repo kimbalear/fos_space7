@@ -5793,6 +5793,7 @@ a.ygtvspacer:hover {
 .boxaligncenter tbody {
   color: #f06043;
   font-size: 13px;
+  background-color: rgba(92, 56, 115, 0.1);
   background-color: rgba(240, 96, 67, 0.1);
   padding-bottom: 16px;
 }
@@ -5886,10 +5887,10 @@ a.ygtvspacer:hover {
   background-color: #FFFAF9;
 }
 .boxaligncenter tbody tr td .advancesearch .col2 .item5 .template-token .form-inline {
-  display: flex;
+  /*display: flex;
   flex-flow: row wrap;
   width: 60%;
-  align-items: center;
+  align-items: center;*/
   gap: 5px 5px;
 }
 .boxaligncenter tbody tr td .advancesearch .col2 .item5 .template-token .form-inline select {
