@@ -327,7 +327,7 @@ h5 {
   border-radius: 0.25rem;
   padding: 4px 8px;
   background-color: #FFDDD6;
-  color: #f06043;
+  color: #333;
 }
 .custom_form .item_custom .cnt_row1 .col2 {
   display: grid;
@@ -385,7 +385,7 @@ h5 {
   border-radius: 0.25rem;
   padding: 4px 8px;
   background-color: #FFDDD6;
-  color: #f06043;
+  color: #333;
 }
 .custom_form .item_custom .cnt_row2 {
   display: grid;
@@ -459,7 +459,7 @@ h5 {
   border-radius: 0.25rem;
   padding: 4px 8px;
   background-color: #FFDDD6;
-  color: #f06043;
+  color: #333;
 }
 .custom_form .item_custom .cnt_row3 {
   display: grid;
@@ -513,7 +513,7 @@ h5 {
   border-radius: 0.25rem;
   padding: 4px 8px;
   background-color: #FFDDD6;
-  color: #f06043;
+  color: #333;
 }
 .custom_form .item_custom .cnt_row4 {
   display: grid;
@@ -567,7 +567,7 @@ h5 {
   border-radius: 0.25rem;
   padding: 4px 8px;
   background-color: #FFDDD6;
-  color: #f06043;
+  color: #333;
 }
 .custom_form .item_custom .cnt_row5 {
   display: grid;
@@ -631,7 +631,7 @@ h5 {
   border-radius: 0.25rem;
   padding: 4px 8px;
   background-color: #FFDDD6;
-  color: #f06043;
+  color: #333;
 }
 .custom_form .item_custom .cnt_row5 .col2 {
   display: grid;
@@ -685,7 +685,7 @@ h5 {
   border-radius: 0.25rem;
   padding: 4px 8px;
   background-color: #FFDDD6;
-  color: #f06043;
+  color: #333;
 }
 .custom_form .item_custom .cnt_row6 {
   display: grid;
@@ -767,7 +767,7 @@ h5 {
   border-radius: 0.25rem;
   padding: 4px 8px;
   background-color: #FFDDD6;
-  color: #f06043;
+  color: #333;
 }
 .custom_form .item_custom .cnt_row7 {
   display: grid;
@@ -842,7 +842,7 @@ h5 {
   border-radius: 0.25rem;
   padding: 4px 8px;
   background-color: #FFDDD6;
-  color: #f06043;
+  color: #333;
 }
 .custom_form .item_custom .cnt_row8 {
   display: grid;
@@ -1075,7 +1075,7 @@ h5 {
   border-radius: 0.25rem;
   padding: 4px 8px;
   background-color: #FFDDD6;
-  color: #f06043;
+  color: #333;
   margin: 0 0 4px;
 }
 
@@ -1102,7 +1102,7 @@ h5 {
 .svw-body .svw-cstm_frm .item_custom .cnt_row1 {
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr minmax(140px, auto);
   gap: 0px 4px;
 }
 .svw-body .svw-cstm_frm .item_custom .cnt_row1 .col1 {
@@ -1243,7 +1243,7 @@ h5 {
 .svw-body .svw-cstm_frm .item_custom .cnt_row5 {
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr minmax(140px, auto);
   gap: 0px 4px;
   justify-content: stretch;
   align-content: stretch;
@@ -6080,7 +6080,6 @@ body {
   background-color: #FFFAF9;
 }
 body #page-wrapper #page {
-  margin-top: 38px !important;
   background-color: #FFFAF9;
 }
 body #page-wrapper #page #page-content {
